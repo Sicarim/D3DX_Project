@@ -1,0 +1,4 @@
+﻿  Bice.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_DF\Bice.cpp(30,28): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_DF\Bice.cpp(30,19): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  D3DX_DF.vcxproj -> D:\Atence\visual\DNF\D3DX_DF\Debug\D3DX_DF.exe

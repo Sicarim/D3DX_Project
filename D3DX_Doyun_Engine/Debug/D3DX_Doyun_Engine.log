@@ -1,0 +1,52 @@
+﻿  Action.cpp
+  Collision.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Collision.cpp(68,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Collision.cpp(114,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Command.cpp
+  EngineMain.cpp
+  FSM.cpp
+  GraphicsManager.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Collision.cpp(131,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(85,39): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(85,32): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(134,25): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(156,39): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(156,32): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(189,23): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(189,16): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(190,23): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(190,16): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(191,24): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(191,16): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(192,24): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(192,16): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(193,23): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\GraphicsManager.cpp(193,16): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Object.cpp(28,14): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Object.cpp(29,14): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Object.cpp(35,13): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Object.cpp(36,13): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ObjectManager.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\Object.cpp(80,27): warning C4244: '=': 'DWORD'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\ObjectManager.cpp(29,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\ObjectManager.cpp(33,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\ObjectManager.cpp(46,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\ObjectManager.cpp(50,95): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Scene.cpp
+  SceneManager.cpp
+  State.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\ObjectManager.cpp(50,60): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\State.cpp(39,23): warning C4244: '=': 'DWORD'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\State.cpp(67,77): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextureManager.cpp
+  TriggerCollision.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\State.cpp(67,70): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\TriggerCollision.cpp(91,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\TriggerCollision.cpp(137,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  UserScript.cpp
+  코드를 생성하고 있습니다...
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\TriggerCollision.cpp(154,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\TriggerCollision.cpp(75): warning C4715: 'DoEngine::TriggerCollision::Draw_Collision': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\Atence\visual\DNF\D3DX_DF\D3DX_Doyun_Engine\TriggerCollision.cpp(211): warning C4715: 'DoEngine::TriggerCollision::HitDir_Check': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  D3DX_Doyun_Engine.vcxproj -> D:\Atence\visual\DNF\D3DX_DF\Debug\D3DX_Doyun_Engine.lib

@@ -1,0 +1,7 @@
+﻿  main.cpp
+  O_Char.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_DF\main.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GlobalDefines.h': No such file or directory
+  S_Game.cpp
+D:\Atence\visual\DNF\D3DX_DF\D3DX_DF\O_Char.h(7,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Object.h': No such file or directory
+  코드를 생성하고 있습니다...
+D:\Atence\visual\DNF\D3DX_DF\D3DX_DF\S_Game.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Scene.h': No such file or directory

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Data">
+      <UniqueIdentifier>{a69d4c00-b248-47be-8eb0-a0d3dfaca650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Bice">
+      <UniqueIdentifier>{4d662b8b-ff83-41e5-9721-863af1246a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data">
+      <UniqueIdentifier>{a59d75b7-3c23-45ff-b274-66f4885934f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{476bcd44-1eca-434c-b286-9955728287ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Bice">
+      <UniqueIdentifier>{d204504e-92db-4ba4-ab2e-d987a9b99694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scene">
+      <UniqueIdentifier>{841eb44c-a5d5-45de-b736-03ab26261713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Bice\State">
+      <UniqueIdentifier>{879d1411-e462-4f3a-ad8b-76054bf2a44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Bice\State">
+      <UniqueIdentifier>{810ccf47-8dc6-47af-befe-a7a0dbee73d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Input">
+      <UniqueIdentifier>{1b09af39-7861-4953-90b7-ea145bdad787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{1da29f02-0c84-4e0b-a592-b943be8e43f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{6893f023-6b21-4025-b401-0f89c936ac75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{d591d315-82e9-49e3-9265-6041b0e8eed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Uclid">
+      <UniqueIdentifier>{74972d1f-dff1-46c2-b02a-bb2872c703c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Xion">
+      <UniqueIdentifier>{bd2c9d14-8dd1-4266-b6a8-450e6796613e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Uclid">
+      <UniqueIdentifier>{0acfddd3-353d-493a-9441-6bb33a77a37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Xion">
+      <UniqueIdentifier>{b5df2c64-6b79-4b12-bd70-484521b3863c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Uclid\State">
+      <UniqueIdentifier>{43d79081-7529-4f74-a369-f6f2179fe031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Uclid\State">
+      <UniqueIdentifier>{19b48a10-c1c4-4e64-97fa-37d96e351dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Xion\State">
+      <UniqueIdentifier>{475d2741-6b57-451d-b5be-4fb6005b2153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Xion\State">
+      <UniqueIdentifier>{72d405e8-97fb-4c4d-a23f-13b61f8efde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager\UI">
+      <UniqueIdentifier>{f9776fb1-e50d-42e0-be64-663b26269716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\UI">
+      <UniqueIdentifier>{1b2b4437-c865-4a79-a4dc-ad32d795c09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data\Bice\Skill">
+      <UniqueIdentifier>{ffa1f00d-1269-4b38-87b8-c5de163d70c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data\Bice\State\Skill">
+      <UniqueIdentifier>{e8297326-68a6-445d-b85d-12953974e073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Script">
+      <UniqueIdentifier>{dd51e97f-7cff-49ce-babd-4e8d2bd6b471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Script">
+      <UniqueIdentifier>{84e2a460-9f6a-4975-a071-761a16503688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Bice.cpp">
+      <Filter>소스 파일\Data\Bice</Filter>
+    </ClCompile>
+    <ClCompile Include="O_Char.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceStanding.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceWork.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceFirstAttack.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceSecondAttack.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceThirdAttack.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceHit.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceBirth.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceDash.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceDie.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceDown.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Uclid.cpp">
+      <Filter>소스 파일\Data\Uclid</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceFSM.cpp">
+      <Filter>소스 파일\Data\Bice</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidFSM.cpp">
+      <Filter>소스 파일\Data\Uclid</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidStanding.cpp">
+      <Filter>소스 파일\Data\Uclid\State</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidHit.cpp">
+      <Filter>소스 파일\Data\Uclid\State</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidFirstAttack.cpp">
+      <Filter>소스 파일\Data\Uclid\State</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidSecondAttack.cpp">
+      <Filter>소스 파일\Data\Uclid\State</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidThirdAttack.cpp">
+      <Filter>소스 파일\Data\Uclid\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Xion.cpp">
+      <Filter>소스 파일\Data\Xion</Filter>
+    </ClCompile>
+    <ClCompile Include="XionFSM.cpp">
+      <Filter>소스 파일\Data\Xion</Filter>
+    </ClCompile>
+    <ClCompile Include="XionStanding.cpp">
+      <Filter>소스 파일\Data\Xion\State</Filter>
+    </ClCompile>
+    <ClCompile Include="XionWork.cpp">
+      <Filter>소스 파일\Data\Xion\State</Filter>
+    </ClCompile>
+    <ClCompile Include="XionHit.cpp">
+      <Filter>소스 파일\Data\Xion\State</Filter>
+    </ClCompile>
+    <ClCompile Include="XionFirstAttack.cpp">
+      <Filter>소스 파일\Data\Xion\State</Filter>
+    </ClCompile>
+    <ClCompile Include="XionSecondAttack.cpp">
+      <Filter>소스 파일\Data\Xion\State</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMapScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMaker.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidBirth.cpp">
+      <Filter>소스 파일\Data\Uclid\State</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>소스 파일\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIAnimation.cpp">
+      <Filter>소스 파일\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UclidDie.cpp">
+      <Filter>소스 파일\Data\Uclid\State</Filter>
+    </ClCompile>
+    <ClCompile Include="XionDie.cpp">
+      <Filter>소스 파일\Data\Xion\State</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboSystem.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceComboSystem.cpp">
+      <Filter>소스 파일\Data\Bice</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceComboList.cpp">
+      <Filter>소스 파일\Data\Bice\State</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboList.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceSkill.cpp">
+      <Filter>소스 파일\Data\Bice\State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="BiceSkillAttack.cpp">
+      <Filter>소스 파일\Data\Bice\State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAI.cpp">
+      <Filter>소스 파일\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Bice.h">
+      <Filter>헤더 파일\Data\Bice</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="O_Char.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceStanding.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceWork.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceFirstAttack.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceSecondAttack.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceThirdAttack.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceBirth.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceDash.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceDie.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceDown.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceHit.h">
+      <Filter>헤더 파일\Data\Bice\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Uclid.h">
+      <Filter>헤더 파일\Data\Uclid</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceFSM.h">
+      <Filter>헤더 파일\Data\Bice</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidFSM.h">
+      <Filter>헤더 파일\Data\Uclid</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidStanding.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidHit.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidBirth.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidDie.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidFirstAttack.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidSecondAttack.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidThirdAttack.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UclidDash.h">
+      <Filter>헤더 파일\Data\Uclid\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Xion.h">
+      <Filter>헤더 파일\Data\Xion</Filter>
+    </ClInclude>
+    <ClInclude Include="XionFSM.h">
+      <Filter>헤더 파일\Data\Xion</Filter>
+    </ClInclude>
+    <ClInclude Include="XionStanding.h">
+      <Filter>헤더 파일\Data\Xion\State</Filter>
+    </ClInclude>
+    <ClInclude Include="XionWork.h">
+      <Filter>헤더 파일\Data\Xion\State</Filter>
+    </ClInclude>
+    <ClInclude Include="XionHit.h">
+      <Filter>헤더 파일\Data\Xion\State</Filter>
+    </ClInclude>
+    <ClInclude Include="XionFirstAttack.h">
+      <Filter>헤더 파일\Data\Xion\State</Filter>
+    </ClInclude>
+    <ClInclude Include="XionSecondAttack.h">
+      <Filter>헤더 파일\Data\Xion\State</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMapScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMaker.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>헤더 파일\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAnimation.h">
+      <Filter>헤더 파일\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="XionDie.h">
+      <Filter>헤더 파일\Data\Xion\State</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboSystem.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceComboSystem.h">
+      <Filter>헤더 파일\Data\Bice</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceComboList.h">
+      <Filter>헤더 파일\Data\Bice</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboList.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BiceSkill.h">
+      <Filter>헤더 파일\Data\Bice\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="BIceSkillAttack.h">
+      <Filter>헤더 파일\Data\Bice\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAI.h">
+      <Filter>헤더 파일\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

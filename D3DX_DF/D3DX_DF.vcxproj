@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{805D1252-72A1-4921-B81C-D211F722388F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>D3DXDF</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Atence\visual\DNF\D3DX_DF\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Atence\visual\DNF\D3DX_DF\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\D3DX_Doyun_Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D3DX_Doyun_Engine.lib;d3d9.lib;d3dx9d.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bice.cpp" />
+    <ClCompile Include="BiceBirth.cpp" />
+    <ClCompile Include="BiceComboList.cpp" />
+    <ClCompile Include="BiceComboSystem.cpp" />
+    <ClCompile Include="BiceDash.cpp" />
+    <ClCompile Include="BiceDie.cpp" />
+    <ClCompile Include="BiceDown.cpp" />
+    <ClCompile Include="BiceFirstAttack.cpp" />
+    <ClCompile Include="BiceFSM.cpp" />
+    <ClCompile Include="BiceHit.cpp" />
+    <ClCompile Include="BiceSecondAttack.cpp" />
+    <ClCompile Include="BiceSkill.cpp" />
+    <ClCompile Include="BiceSkillAttack.cpp" />
+    <ClCompile Include="BiceStanding.cpp" />
+    <ClCompile Include="BiceThirdAttack.cpp" />
+    <ClCompile Include="BiceWork.cpp" />
+    <ClCompile Include="ComboList.cpp" />
+    <ClCompile Include="ComboSystem.cpp" />
+    <ClCompile Include="EnemyAI.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="O_Char.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SelectMapScene.cpp" />
+    <ClCompile Include="SelectScene.cpp" />
+    <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="S_Game.cpp" />
+    <ClCompile Include="TextureMaker.cpp" />
+    <ClCompile Include="Uclid.cpp" />
+    <ClCompile Include="UclidBirth.cpp" />
+    <ClCompile Include="UclidDie.cpp" />
+    <ClCompile Include="UclidFirstAttack.cpp" />
+    <ClCompile Include="UclidFSM.cpp" />
+    <ClCompile Include="UclidHit.cpp" />
+    <ClCompile Include="UclidSecondAttack.cpp" />
+    <ClCompile Include="UclidStanding.cpp" />
+    <ClCompile Include="UclidThirdAttack.cpp" />
+    <ClCompile Include="UIAnimation.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="Xion.cpp" />
+    <ClCompile Include="XionDie.cpp" />
+    <ClCompile Include="XionFirstAttack.cpp" />
+    <ClCompile Include="XionFSM.cpp" />
+    <ClCompile Include="XionHit.cpp" />
+    <ClCompile Include="XionSecondAttack.cpp" />
+    <ClCompile Include="XionStanding.cpp" />
+    <ClCompile Include="XionWork.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bice.h" />
+    <ClInclude Include="BiceBirth.h" />
+    <ClInclude Include="BiceComboList.h" />
+    <ClInclude Include="BiceComboSystem.h" />
+    <ClInclude Include="BiceDash.h" />
+    <ClInclude Include="BiceDie.h" />
+    <ClInclude Include="BiceDown.h" />
+    <ClInclude Include="BiceFirstAttack.h" />
+    <ClInclude Include="BiceFSM.h" />
+    <ClInclude Include="BiceHit.h" />
+    <ClInclude Include="BiceSecondAttack.h" />
+    <ClInclude Include="BiceSkill.h" />
+    <ClInclude Include="BIceSkillAttack.h" />
+    <ClInclude Include="BiceStanding.h" />
+    <ClInclude Include="BiceThirdAttack.h" />
+    <ClInclude Include="BiceWork.h" />
+    <ClInclude Include="ComboList.h" />
+    <ClInclude Include="ComboSystem.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="EnemyAI.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="O_Char.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SelectMapScene.h" />
+    <ClInclude Include="SelectScene.h" />
+    <ClInclude Include="StartScene.h" />
+    <ClInclude Include="S_Game.h" />
+    <ClInclude Include="TextureMaker.h" />
+    <ClInclude Include="Uclid.h" />
+    <ClInclude Include="UclidBirth.h" />
+    <ClInclude Include="UclidDash.h" />
+    <ClInclude Include="UclidDie.h" />
+    <ClInclude Include="UclidFirstAttack.h" />
+    <ClInclude Include="UclidFSM.h" />
+    <ClInclude Include="UclidHit.h" />
+    <ClInclude Include="UclidSecondAttack.h" />
+    <ClInclude Include="UclidStanding.h" />
+    <ClInclude Include="UclidThirdAttack.h" />
+    <ClInclude Include="UIAnimation.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="Xion.h" />
+    <ClInclude Include="XionDie.h" />
+    <ClInclude Include="XionFirstAttack.h" />
+    <ClInclude Include="XionFSM.h" />
+    <ClInclude Include="XionHit.h" />
+    <ClInclude Include="XionSecondAttack.h" />
+    <ClInclude Include="XionStanding.h" />
+    <ClInclude Include="XionWork.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

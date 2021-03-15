@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GraphicsSystem">
+      <UniqueIdentifier>{9f08586c-5ad0-4e0e-b0a3-05e66efcd865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GraphicsSystem\Scene">
+      <UniqueIdentifier>{6d4b1029-da12-4383-8844-34e08217dcf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\InputSystem">
+      <UniqueIdentifier>{9f44cb48-a18e-4c58-ab96-9097bbe461d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{57604254-b410-47f4-a6b2-f0fd586b29f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GraphicsSystem\Texture">
+      <UniqueIdentifier>{2e8d96fa-27ed-4e77-b4c2-10b4543d1f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{23b50f11-7e27-44d1-8c7d-38fa4b5cceee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Sysem">
+      <UniqueIdentifier>{e072b84d-54d8-424f-826b-db3ffa8987b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{7ea2616c-529f-431a-885a-1ffbb4b57a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\InputManager">
+      <UniqueIdentifier>{291d50a2-065a-440e-aed3-c68d71976342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GraphicsSystem">
+      <UniqueIdentifier>{8e963c42-881c-480c-8a58-03c1fe86e27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GraphicsSystem\Scene">
+      <UniqueIdentifier>{348df8f7-4d96-47bc-a3d9-0cb511918b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GraphicsSystem\Texture">
+      <UniqueIdentifier>{9a8fac0c-79e6-4539-ba4d-ab8cb4aa901e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\InputManager\FSM">
+      <UniqueIdentifier>{7db74807-f532-4d1b-b166-a3dd9efc70c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\InputSystem\FSM">
+      <UniqueIdentifier>{a82e9ee7-2a7a-4005-aaaa-6d2c9f380311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\InputManager\Command">
+      <UniqueIdentifier>{8deb6645-5e1e-4bc7-a064-8559c1c46ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\InputSystem\Command">
+      <UniqueIdentifier>{4c2ed07c-1b2e-4555-a769-00eb9546774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Collision">
+      <UniqueIdentifier>{92f7f422-daf6-4286-9ec3-3b1e68993bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Collision">
+      <UniqueIdentifier>{4e76fc15-1883-4cd3-b566-6afe8b12aa54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationMaker.cpp">
+      <Filter>소스 파일\GraphicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMain.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>소스 파일\GraphicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="POINT.cpp">
+      <Filter>소스 파일\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\GraphicsSystem\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\GraphicsSystem\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>소스 파일\GraphicsSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>소스 파일\InputSystem\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>소스 파일\InputSystem\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>소스 파일\InputSystem\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>소스 파일\InputSystem\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisonManager.cpp">
+      <Filter>소스 파일\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>소스 파일\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleLogger.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerCollision.cpp">
+      <Filter>소스 파일\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="UserScript.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureManager.h">
+      <Filter>헤더 파일\GraphicsSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>헤더 파일\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="POINT.h">
+      <Filter>헤더 파일\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\GraphicsSystem\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>헤더 파일\GraphicsSystem\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>헤더 파일\Sysem</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>헤더 파일\Sysem</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>헤더 파일\Sysem</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>헤더 파일\GraphicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMain.h">
+      <Filter>헤더 파일\Sysem</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefines.h">
+      <Filter>헤더 파일\Sysem</Filter>
+    </ClInclude>
+    <ClInclude Include="DoEngine.h">
+      <Filter>헤더 파일\Sysem</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationMaker.h">
+      <Filter>헤더 파일\GraphicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>헤더 파일\InputManager\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>헤더 파일\InputManager\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>헤더 파일\InputManager\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>헤더 파일\InputManager\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>헤더 파일\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>헤더 파일\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLogger.h">
+      <Filter>헤더 파일\Sysem</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerCollision.h">
+      <Filter>헤더 파일\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="UserScript.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
